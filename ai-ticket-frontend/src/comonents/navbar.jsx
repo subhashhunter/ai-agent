@@ -10,7 +10,7 @@ try {
     }
     } catch (e) {
     console.error('Invalid user in localStorage', e);
-    localStorage.removeItem('user'); // clear the bad value
+    localStorage.removeItem('user'); 
     }
     const navigate=useNavigate()
     const Logout=()=>{
