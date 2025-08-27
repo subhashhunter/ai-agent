@@ -1,0 +1,14 @@
+{
+  "name": "ai-ticket-assistant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "inngest-dev":"npx inngest-cli@latest dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
